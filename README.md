@@ -27,7 +27,7 @@ By combining EDA, model training, and evaluation, this project helps identify **
 
 ## 📊 Dataset
 
-**Source:** [Heart Disease UCI Dataset](https://www.kaggle.com/datasets/ronitf/heart-disease-uci)  
+**Source:** [Heart Disease Dataset](https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset)  
 
 The dataset contains **303 patient records** with **14 attributes** used to predict the presence (`1`) or absence (`0`) of heart disease.  
 
