@@ -1,7 +1,8 @@
 # Heart_Disease_Analysis
-![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python&logoColor=white)  
-![Pandas](https://img.shields.io/badge/Pandas-1.5-brightgreen)  
-![Seaborn](https://img.shields.io/badge/Seaborn-0.12-purple)  
+
+![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python&logoColor=white) 
+![Pandas](https://img.shields.io/badge/Pandas-1.5-brightgreen) 
+![Seaborn](https://img.shields.io/badge/Seaborn-0.12-purple)
 ![Scikit--Learn](https://img.shields.io/badge/Scikit--Learn-1.2-orange)  
 
 This repository contains a Python implementation of **Exploratory Data Analysis (EDA)**, preprocessing, and machine learning classification using **Decision Trees** and **Random Forests** on the Heart Disease dataset. The project explores model performance, overfitting control, feature importance, and cross-validation to ensure robust evaluation.
