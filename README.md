@@ -1,5 +1,4 @@
 # Heart_Disease_Analysis
-
 ![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python&logoColor=white)  
 ![Pandas](https://img.shields.io/badge/Pandas-1.5-brightgreen)  
 ![Seaborn](https://img.shields.io/badge/Seaborn-0.12-purple)  
