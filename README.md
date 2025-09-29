@@ -7,8 +7,6 @@
 
 This repository contains a Python implementation of **Exploratory Data Analysis (EDA)**, preprocessing, and machine learning classification using **Decision Trees** and **Random Forests** on the Heart Disease dataset. The project explores model performance, overfitting control, feature importance, and cross-validation to ensure robust evaluation.
 
----
-
 ## 📑 Table of Contents
 - [Project Overview](#project-overview)  
 - [Dataset](#dataset)  
@@ -19,8 +17,6 @@ This repository contains a Python implementation of **Exploratory Data Analysis 
 - [Conclusion](#conclusion)  
 - [Author](#author)  
 
----
-
 ## 📌 Project Overview
 The goal of this project is to predict whether a patient is likely to have **heart disease** based on clinical and demographic features.  
 
@@ -28,8 +24,6 @@ The goal of this project is to predict whether a patient is likely to have **hea
 - **Random Forest Classifier**: An ensemble of decision trees that improves accuracy and generalization.  
 
 By combining EDA, model training, and evaluation, this project helps identify **important risk factors** and **predictive features** for heart disease.
-
----
 
 ## 📊 Dataset
 
@@ -71,7 +65,6 @@ The dataset contains **303 patient records** with **14 attributes** used to pred
 - **Classes**: Heart Disease (1 = 165 cases), No Disease (0 = 138 cases)  
 - **Imbalance**: Slightly skewed but balanced enough for binary classification tasks  
 
----
 
 ## 🔍 Exploratory Data Analysis
 1. **Data Overview** – Summary statistics, missing values check.  
@@ -80,7 +73,6 @@ The dataset contains **303 patient records** with **14 attributes** used to pred
 4. **Boxplots & Violin Plots** – Compared cholesterol, blood pressure, and age across target groups.  
 5. **Countplots for Categorical Features** – Visualized distributions of chest pain type, gender, thalassemia, etc.  
 
----
 
 ## 🤖 Modeling
 1. **Decision Tree Classifier**  
@@ -98,19 +90,35 @@ The dataset contains **303 patient records** with **14 attributes** used to pred
    - Cross-validation for robust performance check.  
    - Learning curves to evaluate bias vs variance.  
 
----
 
-## 🛠 Tools & Libraries
+##  Tools & Libraries
 - **Python**  
 - **Pandas & NumPy** – data handling  
 - **Matplotlib & Seaborn** – visualization  
 - **Scikit-learn** – preprocessing, modeling, evaluation  
 - **Jupyter Notebook** – interactive exploration  
 
----
 
-## 🚀 How to Run
+##  How to Run
 1. Clone the repository:
    ```bash
    git clone https://github.com/Shrilaxmi-16/Heart_Disease_Analysis.git
    cd Heart_Disease_Analysis
+
+## ✅ Conclusion
+This project demonstrated how **machine learning models** can be applied to predict heart disease using clinical and demographic features.  
+
+- **Exploratory Data Analysis (EDA)** revealed important insights such as higher cholesterol, ST depression (`oldpeak`), and chest pain type (`cp`) being strongly associated with heart disease.  
+- A **Decision Tree Classifier** provided interpretability but showed signs of **overfitting** when depth was not restricted.  
+- The **Random Forest Classifier** outperformed the single decision tree, achieving **higher accuracy and better generalization** by leveraging ensemble learning.  
+- **Feature importance analysis** highlighted `cp`, `thalach`, `oldpeak`, and `ca` as key predictive factors for heart disease.  
+- **ROC curves and cross-validation** confirmed that the Random Forest was more robust and reliable compared to the Decision Tree.  
+- **Learning curves** showed that Random Forest mitigates variance issues and benefits from more training data, while Decision Trees saturate quickly.  
+
+## Author
+Shrilaxmi Gidd
+
+Email: shrilaxmigidd16@gmail.com
+
+Date: 29-09-2025
+
